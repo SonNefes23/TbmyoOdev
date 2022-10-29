@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <title>ZStudios</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .nav-calc {
+        height: calc(100vh - 5rem);
+      }
+    }
+  </style>
+</head>
+<body class="h-full bg-gray-900 ">
+    
+  
+  <nav>
+        <div class="flex justify-between h-16 items-center ">
+          <div class="w-24 h-full ">
+            <div class="flex items-center">
+              <img class="h-12 sm:h-16" src="/img/ZStudios Logo.svg" alt="">
+            </div>
+          </div>
+    </nav>
+
+
+    <section class="nav-calc content-center grid">
+      <div class="text-center">
+        <h2 class="text-4xl  py-1 md:py-2 text-teal-600 font-medium dark:text-teal-400">
+          Ahmet Demir
+        </h2>
+        <div class="animation_text">
+        <h1 class="text-md font-bold py-2 text-white md:text-2xl">I am
+          <span class="typewrite" data-period="2000" data-words='[ "Front-End Developper"]'></span>
+        </h1>
+      </div>
+        <p class="text-sm py-4 leading-6 text-gray-400 max-w-xl mx-auto md:text-xl">
+          Merhaba, Ben Ahmet Demir. Elazığ/Merkez doğumluyum. Yaklaşık 6 aydır Front-End ile ilgilenmekteyim.
+        </p>
+        <div class="text-3xl flex justify-center gap-16 py-8 text-gray-400">
+          <i class="bi bi-twitter text-teal-500"></i>
+          <a href="https://github.com/SonNefes23"><i class="bi bi-github text-teal-500"></i></a>
+          <a href="https://github.com/SonNefes23"><i class="bi bi-linkedin text-teal-500"></i></a>
+        </div>
+        <div class="mx-auto bg-gradient-to-b from-teal-600 rounded-full w-60 h-60 md:h-72 md:w-72  relative overflow-hidden">
+          <img src="/img/coder.png" class="h-fill pt-16">
+        </div>
+      </div>
+     <!-- <i class="bi bi-arrow-bar-down flex justify-center text-teal-500 text-5xl pt-3 "></i> -->
+    </section>
+
+
+
+    
+    
+
+
+    <script src="/js/Animation.js"></script>
+</body>
+</html>
